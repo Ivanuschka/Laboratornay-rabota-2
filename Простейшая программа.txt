@@ -9,4 +9,4 @@ class circle():
 r = int(input("Введите радиус круга: "))
 obj = circle(r)
 print("Площадь круга:", round(obj.area(), 2))
-print("Длина окружности:", round(obj
+print("Длина окружности:", round(obj.perimeter(), 2))
