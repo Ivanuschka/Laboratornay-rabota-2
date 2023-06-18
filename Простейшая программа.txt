@@ -7,3 +7,5 @@ class circle():
 	def perimeter(self):
         return 2 * math.pi * self.radius
 r = int(input("Введите радиус круга: "))
+obj = circle(r)
+print("Площадь круга:", round(obj.area(), 2))
